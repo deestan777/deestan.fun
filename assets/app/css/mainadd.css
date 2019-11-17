@@ -1,0 +1,112 @@
+.s-whywe {
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 30px
+}
+
+.s-whywe:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #343a40;
+    position: absolute;
+    opacity: .7
+}
+
+.s-whywe h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.s-whywe .main-actions_l1 {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.s-whywe .main-actions_l1 h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 15px
+}
+
+.s-whywe .main-actions_l1 .far,
+.s-whywe .main-actions_l1 .fas {
+    color: #00AA00;
+    font-size: 42px;
+    padding: 20px 30px;
+    background-color: #fff;
+    -webkit-border-radius: 25px;
+    border-radius: 25px
+}
+
+.s-content {
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 30px
+}
+
+.s-content:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa;
+    position: absolute;
+    opacity: .8
+}
+
+.s-content h2 {
+    color: #1a1a1a;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 30px
+}
+
+.s-content h3 {
+    color: #00AA00;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.s-content p {
+    line-height: 1.4;
+    text-align: justify
+}
+
+.line-cat {
+    font-size: 16px;
+    margin-bottom: 18px;
+    position: relative
+}
+
+.line-cat strong {
+    color: #1a1a1a;
+    background-color: #fff;
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    z-index: 1
+}
+
+.line-cat:after {
+    content: "";
+    display: block;
+    width: 100%;
+    right: 0;
+    top: 60%;
+    height: 5px;
+    background: #c82333;
+    position: absolute
+}
