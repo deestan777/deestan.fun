@@ -15113,6 +15113,7 @@ nav li {
 }
 
 .sale-item .fas {
+    z-index:991;
     color: #c82333;
     font-size: 70px
 }
